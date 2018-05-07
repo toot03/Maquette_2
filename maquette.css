@@ -1,0 +1,235 @@
+body{
+    margin:0px;
+}
+
+                /*Début section header*/
+
+header{
+    color:white;
+    background-size:cover;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ),url("img/image-499666622.jpg") no-repeat;
+}
+
+.container{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.nav_menu{
+    display:flex;
+    justify-content:space-between;
+}
+.menu{
+    align-self:center;
+    text-decoration:none;
+    list-style-type:none;
+}
+
+li{
+    display:inline;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    padding:2px;
+}
+
+.text_header{
+    height:572px;
+    padding-top:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+h1{
+    font-size:2.6em;
+    margin:0px;
+}
+
+.text_header p{
+    margin:0px;
+}
+
+.see_more{
+    color:white;
+    background-color:rgb(244, 126, 54);
+    border:0px;
+    width:15%;
+    padding:7px;
+}
+                /*Fin section header*/
+
+                /*Début section Services*/
+
+.services{
+    padding-top:25px;
+    padding-bottom:25px;
+    color:darkgrey;
+}
+
+
+.titre{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+.trait{
+    border-top:solid darkgrey 1px;
+    width:70%;
+}
+
+.first{
+    display:flex;
+    justify-content:space-between;
+}
+
+article{
+    display:flex;
+    padding:25px;
+    height:100px;
+    align-items:center;
+}
+
+.logo{
+    height:auto;
+    width:auto;
+}
+
+.second{
+    margin-left:25px;
+}
+
+                /*Fin section Services*/
+
+                /*Début section Design*/
+
+.design{
+    color:darkgrey;
+    padding:25px;
+}
+
+.ul_design{
+    padding:10px 10px 10px 0px;
+}
+
+.ul_design a{
+    text-decoration:none;
+    margin-right:10px;
+    color:darkgrey;
+}
+
+.ul_design a:hover{
+    color:rgb(223, 115, 51);
+}
+
+.images{
+    width:100%;
+}
+
+.liste_image_1{
+    display:flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+}
+
+.liste_image_2{
+    display:flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+}
+
+                /*Fin section Design*/
+
+                /*Début section Next*/
+
+#next{
+    background-color:rgb(244, 126, 54);
+    color:white;
+    height:300px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.in_next{
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.in_next p{
+    padding:10px 10px 10px 0px;
+}
+
+.button_next{
+    display:flex;
+}
+
+.next{
+    background-color:rgba(250,250,250,0.1);
+    color:white;
+    border:none;
+}
+
+                /*Fin section Next*/
+
+                /*Début section Team*/
+
+.team{
+    color:darkgrey;
+}
+
+.our_team{
+    display:flex;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.our_team img{
+    width:100%;
+}
+
+.descrip_team{
+    width:90%;
+}
+
+                /*Fin section Team*/
+
+                /*Début section Static*/
+
+.static{
+    color:white;
+    background-size:cover;
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+    ),url("img/image-195625538.jpg") no-repeat;
+    height:500px;
+}
+
+.static h2{
+    height:200px;
+}
+
+.static hr{
+    width:100%;
+}
+
+.text_static{
+    display:flex;
+    flex-direction:column;
+    align-items:space-around;
+    padding-top:20px;
+    padding-bottom:40px;
+    height:300px;
+}
